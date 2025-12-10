@@ -8,6 +8,6 @@ function CallButton({ handleVideoCall }) {
       </button>
     </div>
   );
-}
+};
 
 export default CallButton;
