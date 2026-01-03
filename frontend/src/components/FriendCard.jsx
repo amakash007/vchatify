@@ -25,13 +25,14 @@ const FriendCard = ({ friend }) => {
         </div>
 
         <Link to={`/chat/${friend._id}`} className="btn btn-outline w-full">
-          Message
+          Message.
         </Link>
       </div>
     </div>
   );
 };
 export default FriendCard;
+
 
 export function getLanguageFlag(language) {
   if (!language) return null;
